@@ -1,0 +1,29 @@
+[project]
+name = "storybook"
+version = "0.1.0"
+description = "Cuentos de cinco escenas con imagen, voz y sonido, generados localmente en CPU"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "gradio>=6.0,<7",
+    "torch>=2.4",
+    "transformers>=4.57",
+    "diffusers>=0.35",
+    "accelerate>=1.0",
+    "piper-tts>=1.3",
+    "sentencepiece>=0.2",
+    "protobuf>=4",
+    "soundfile>=0.12",
+    "numpy>=1.26",
+    "pillow>=10",
+]
+
+# PyTorch solo para CPU (descarga mucho más pequeña que la versión con CUDA).
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }]
