@@ -1,8 +1,8 @@
 # Storybook
 ## Integrantes:
-Jairo Andres Niño Santos
-David Santiago Del Rio Mosquera
-Frank Erick Joel Diaz Albarracin
+Jairo Andres Niño Santos /
+/ David Santiago Del Rio Mosquera
+/ Frank Erick Joel Diaz Albarracin
 
 
 Aplicación local que, a partir de una **idea** y un **tipo de cuento**, genera un cuento de **cinco escenas**.
