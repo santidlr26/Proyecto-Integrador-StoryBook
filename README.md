@@ -1,4 +1,9 @@
 # Storybook
+##Integrantes:
+Jairo Andres Niño Santos
+David Santiago Del Rio Mosquera
+Frank Erick Joel Diaz Albarracin
+
 
 Aplicación local que, a partir de una **idea** y un **tipo de cuento**, genera un cuento de **cinco escenas**.
 Cada escena tiene texto, ilustración, narración con voz y sonido ambiente. La escena 1 se muestra en cuanto
