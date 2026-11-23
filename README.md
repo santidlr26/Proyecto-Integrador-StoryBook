@@ -1,7 +1,7 @@
 # Storybook
 ## Integrantes:
-Jairo Andres Niño Santos /
-/ David Santiago Del Rio Mosquera
+Jairo Andres Niño Santos /n
+David Santiago Del Rio Mosquera
 / Frank Erick Joel Diaz Albarracin
 
 
